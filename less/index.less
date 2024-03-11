@@ -1,0 +1,178 @@
+/* variables */
+@color1: black;
+@color2:green;
+@color3:white;
+@px: 15px;
+@20px: 20px;
+@zero: 0;
+
+
+*{ 
+	margin: @zero; 
+	padding: @zero; 
+	font-family: 'Roboto Condensed', sans-serif; 
+} 
+
+/* navbar */
+.navbar-nav{ 
+	margin-right: @zero !important; 
+	padding-right: @px * 7; 
+} 
+
+.navbar{ 
+	background-color: @color2; 
+	color: @color3 !important; 
+} 
+
+.nav-item a{ 
+	color: @color3 !important; 
+} 
+
+.nav-item{ 
+	padding-left: 2px; 
+} 
+
+.navbar-brand{ 
+	color: @color3 !important; 
+	padding-left: @20px * 5; 
+} 
+
+#navbar button{ 
+	color: @color3 !important; 
+} 
+
+/* banner */
+#banner-container{ 
+	background-color: #0a193d; 
+	color: @color3 !important; 
+	.padding80PX();
+	
+} 
+
+#banner-row img{ 
+	max-width: 70%; 
+	height: auto; 
+	display: block; 
+	padding-left: @px * 2; 
+} 
+
+#banner-row h3, p{ 
+	.margin20PX();
+	text-align: center; 
+} 
+
+#banner-row a{ 
+	background-color: @color3 !important; 
+	color: @color2 !important; 
+	border: none; 
+	.margin20PX();	
+} 
+#banner-col{ 
+	padding-left: @px + 5; 
+} 
+
+/* service */
+#service{ 
+	.padding80PX();
+} 
+
+#service h1{ 
+	.paddingBottom70PX();
+} 
+
+/* about */
+#about{ 
+	.padding80PX();
+} 
+
+#about h1{ 
+	.paddingBottom70PX();
+} 
+
+#about-col ul{ 
+	.padding50PX(); 
+} 
+
+#about-col ul li{ 
+	padding-top: @px; 
+	
+} 
+
+/* product */
+#product{ 
+	.padding80PX(); 
+} 
+
+#product h1{ 
+	.paddingBottom70PX();
+} 
+
+#product-col2 ul{ 
+	padding-top: @px * 6; 
+} 
+
+#product-col2 ul li{ 
+	padding-top: @px; 
+} 
+
+/* social */
+#social{ 
+	.padding80PX(); 
+} 
+
+#social h1{ 
+	.paddingBottom70PX();
+} 
+
+.social-col a:hover img{ 
+transform: translateY(-10px); 
+} 
+
+#social-row{ 
+	flex-direction: row; 
+} 
+
+/* footer */
+.mb-3{ 
+padding-top: @px - 5; 
+} 
+
+/* media */
+@media only screen and (max-width: 987px){ 
+	.navbar-brand{ 
+		padding-left: 0px; 
+	} 
+} 
+
+@media only screen and (max-width: 768px){ 
+	#banner-row img{ 
+		.paddingtop20PX();
+	} 
+
+.social-col{ 
+	width: 33%; 
+} 
+}
+
+.margin20PX {
+	margin-left: @20px; 
+	margin-top: @20px; 
+}
+
+.padding80PX {
+	padding-top: @20px * 4; 
+	padding-bottom: @20px * 4; 
+}
+
+.padding50PX {
+	padding-top: @20px + 30; 
+	padding-left: @20px + 30; 
+}
+
+.paddingBottom70PX {
+	padding-bottom: @20px * 3 + 10; 
+}
+
+.paddingtop20PX {
+	padding-top: 10px; 
+}

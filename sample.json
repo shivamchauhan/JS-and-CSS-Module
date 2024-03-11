@@ -1,0 +1,6 @@
+[
+    {"id":1719624932341, "name": "Thomas", "email": "thomas@gmail.com", "duration": "2024/01/10", "course": "HTML", "status":"InActive"},
+    {"id":1719624932342, "name": "Rahul", "email": "rahul@gmail.com", "duration": "2024/02/07", "course":"CSS", "status":"Active"},
+    {"id":1719624932342, "name": "John", "email": "john@gmail.com", "duration": "2024/01/15", "course":"LESS", "status":"Active"},
+    {"id":1719624932342, "name": "David", "email": "david@gmail.com", "duration": "2021/02/21", "course":"SASS", "status":"Active"}
+]
