@@ -12,22 +12,8 @@ table {
   }
 
 
-  @media screen and (max-width: 600px) {
-  table, thead, tbody, th, td, tr {
-    display: block;
-  }
-  thead tr {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-  }
-  tr { margin: 0 0 1rem 0; }
-  td {
-    border: none;
-    border-bottom: 1px solid @color1;
-    position: relative;
-    padding-left: 50%;
-  }
+  @media screen and (max-width: 480px) {
+
   td:before {
     position: absolute;
     top: 0;

@@ -86,6 +86,7 @@ function edit(id) {
      document.querySelector('.phonenumber').value = obj.phonenumber;
      document.querySelector('.course').value = obj.course;
      document.querySelector('.id').value = obj.id;
+     document.querySelector(".add_div").style.display = "block";
 }
 
 
